@@ -8,7 +8,10 @@ boolean currentButton = LOW:
 int ledMode = 0;
 
 void setup(){
-//TODO
+ pinMode(BLED, OUTPUT);
+ pinMode(GLED, OUTPUT);
+ pinMode(RLED, OUTPUT);
+ pinMode(BUTTON, INPUT);
 }
 
 boolean debounce(boolean last){
